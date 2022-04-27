@@ -1,0 +1,600 @@
+Day 100: 
+Number of non-infected people: 114
+Number of infected people: 14
+Number of immune people: 0
+
+
+Day 99: 
+Number of non-infected people: 109
+Number of infected people: 19
+Number of immune people: 0
+
+
+Day 98: 
+Number of non-infected people: 103
+Number of infected people: 25
+Number of immune people: 0
+
+
+Day 97: 
+Number of non-infected people: 99
+Number of infected people: 29
+Number of immune people: 0
+
+
+Day 96: 
+Number of non-infected people: 99
+Number of infected people: 29
+Number of immune people: 0
+
+
+Day 95: 
+Number of non-infected people: 98
+Number of infected people: 30
+Number of immune people: 0
+
+
+Day 94: 
+Number of non-infected people: 98
+Number of infected people: 16
+Number of immune people: 14
+
+
+Day 93: 
+Number of non-infected people: 98
+Number of infected people: 11
+Number of immune people: 19
+
+
+Day 92: 
+Number of non-infected people: 98
+Number of infected people: 5
+Number of immune people: 25
+
+
+Day 91: 
+Number of non-infected people: 98
+Number of infected people: 1
+Number of immune people: 29
+
+
+Day 90: 
+Number of non-infected people: 98
+Number of infected people: 1
+Number of immune people: 29
+
+
+Day 89: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 88: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 87: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 86: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 85: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 84: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 83: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 82: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 81: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 80: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 79: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 78: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 77: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 76: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 75: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 74: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 73: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 72: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 71: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 70: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 69: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 68: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 67: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 66: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 65: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 64: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 63: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 62: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 61: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 60: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 59: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 58: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 57: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 56: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 55: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 54: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 53: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 52: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 51: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 50: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 49: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 48: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 47: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 46: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 45: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 44: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 43: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 42: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 41: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 40: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 39: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 38: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 37: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 36: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 35: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 34: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 33: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 32: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 31: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 30: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 29: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 28: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 27: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 26: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 25: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 24: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 23: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 22: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 21: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 20: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 19: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 18: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 17: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 16: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 15: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 14: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 13: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 12: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 11: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 10: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 9: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 8: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 7: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 6: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 5: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 4: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 3: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 2: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
+Day 1: 
+Number of non-infected people: 98
+Number of infected people: 0
+Number of immune people: 30
+
+
