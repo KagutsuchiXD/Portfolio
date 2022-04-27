@@ -1,0 +1,110 @@
+/* Read this file carefully to learn when and how to use these CSS classes so
+ * that your webpage will have a nice appearance.  When your webpage takes on a
+ * strange or unexpected appearance, review these classes and the elements they
+ * are applied to.  Most visual bugs result from the misapplication of these
+ * classes.
+ */
+
+
+/* For the best appearance, your Fibonacci tree should be contained within a
+ * <div> which is of class `fib-container` and one of the color classes defined
+ * at the bottom of this stylesheet.
+ *
+ * `fib-container` centers its contents and makes its text stand out brightly
+ * against its background.  It also provides padding within the container to
+ * separate its contents from the edge of the box.
+*/
+.fib-container {
+    text-shadow: 1px 1px 2px black;
+    color:       white;
+    font-family: 'helvetica neue', helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 3px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+/* The `fib-item` class is for all <div>s which contain a Fibonacci number.
+ * In the Fibonacci tree `fib-item`s will also contain other `fib-item`s.
+ *
+ * The display value of 'inline-block' makes the Fibonacci tree stay within its
+ * `fib-container` no matter how large it becomes.
+ *
+ * This 'background-color' specifies a slightly-blue tint of grey at 10%
+ * opacity.  As more `fib-items` are stacked upon each other their opacity adds
+ * up, highlighting those fib-items towards the bottom of the Fibonacci call
+ * stack.
+ */
+.fib-item {
+    display: inline-block;
+    background-color: rgba(112,128,144,0.1);
+}
+
+
+/* The `fib-left` and `fib-right` classes are for the <div>s which make up the
+ * Fibonacci tree.  You won't know whether an item goes on the left or the
+ * right until after you have already created it, so hold off on assigning a
+ * <div> to one of these classes until after the function which creates the
+ * <div> returns.  You will be able to modify its class attribute at that time.
+ *
+ * Note: An element must not be in both the `fib-left` and `fib-right` classes at
+ * the same time.
+ */
+.fib-left {
+    float: left;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.fib-right {
+    float: right;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+
+/* The fib-list class is provided as a special-purpose container for the <div>
+ * containing the Fibonacci list I recommend you make as a stepping-stone to
+ * understanding the recursive Fibonacci function.
+ */
+.fib-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.red {
+    border-color: rgb(255,0,0);
+    background:   rgb(180,60,60);
+    box-shadow: 1px 1px 2px rgba(200,0,0,0.4);
+}
+
+.green {
+    border-color: rgb(0,255,0);
+    background:   rgb(60,180,60);
+    box-shadow: 1px 1px 2px rgba(0,200,0,0.4);
+}
+
+.blue {
+    border-color: rgb(0,0,255);
+    background:   rgb(60,60,180);
+    box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+}
+
+.yellow {
+    border-color: rgb(255,255,0);
+    background:   rgb(180,180,60);
+    box-shadow: 1px 1px 2px rgba(200,200,0,0.4);
+}
+
+.black {
+    border-color: rgb(0,0,0);
+    background:   rgb(75,75,75);
+    box-shadow: 1px 1px 2px rgba(200,200,0,0.4);
+}

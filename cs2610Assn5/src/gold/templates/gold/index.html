@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Worth Your Weight in Gold</title>
+    <link rel="stylesheet" href="{% static 'gold/style.css' %}"/>
+</head>
+<body class="gold">
+<script src="{%static 'gold/script.js'%}"> </script>
+<h1>
+    Worth Your Weight in Gold
+</h1>
+<h2>
+    Input your weight in lbs. and click CALCULATE to see how much you'd be worth if you were made of gold.
+</h2>
+<label for="weight">
+    Weight in lbs:
+</label>
+<input type="text" id="weight" name="weight" required size="15">
+<button type="button" onclick="conversion(document.getElementsByName('weight')[0].value)">CALCULATE</button>
+<div>
+    <p id="quandl">Waiting for your input.....</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Choose Your Trainer"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/radioAsh"
+                android:layout_width="31dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="212dp"
+                android:checked="true"
+                android:text="Ash" />
+
+            <RadioButton
+                android:id="@+id/radioGreen"
+                android:layout_width="31dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="284dp"
+                android:layout_marginTop="-40dp"
+                android:text="Green" />
+
+            <RadioButton
+                android:id="@+id/radioHarrison"
+                android:layout_width="31dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="88dp"
+                android:layout_marginTop="160dp"
+                android:text="Harrison" />
+
+            <RadioButton
+                android:id="@+id/radioMay"
+                android:layout_width="32dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="-40dp"
+                android:text="May" />
+
+            <RadioButton
+                android:id="@+id/radioX"
+                android:layout_width="31dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="88dp"
+                android:layout_marginTop="150dp"
+                android:text="X" />
+
+            <RadioButton
+                android:id="@+id/radioSerena"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="284dp"
+                android:layout_marginTop="-45dp"
+                android:text="Serena" />
+
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/ash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="112dp"
+            android:src="@drawable/ash"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="252dp"
+            android:layout_marginTop="112dp"
+            android:src="@drawable/green"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/harrison"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="312dp"
+            android:src="@drawable/harrison"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/may"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="252dp"
+            android:layout_marginTop="312dp"
+            android:src="@drawable/may"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="500dp"
+            android:src="@drawable/x"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/serena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="252dp"
+            android:layout_marginTop="500dp"
+            android:src="@drawable/serena"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

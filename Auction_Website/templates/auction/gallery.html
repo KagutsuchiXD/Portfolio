@@ -1,0 +1,27 @@
+{% extends 'auction/base.html' %}
+{% load static %}
+
+{% block title %}Item Gallery{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+
+    <body>
+		{% for i in item %}
+        {% if i.is_silent_item == True %}
+		<div class="item_wrapper">
+            <div class="gallary_image_div">
+                <a href="{% url 'auction:item_details' i.id %}">
+                    <img class="gallary_image" src="{{ i.image.url }}">
+                </a>
+            </div>
+            <h2>{{ i.item_name }}</h2> <!-- needs a link still -->
+        </div>
+        {% endif %}
+		{% endfor %}
+    </body>
+{% else %}
+<p>You are not logged in</p>
+<a href="{% url 'login' %}">login</a>
+{% endif %}
+{% endblock %}

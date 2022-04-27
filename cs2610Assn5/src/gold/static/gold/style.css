@@ -1,0 +1,29 @@
+.red {
+    border-color: rgb(255,0,0);
+    background:   rgb(180,60,60);
+    box-shadow: 1px 1px 2px rgba(200,0,0,0.4);
+}
+
+.green {
+    border-color: rgb(0,255,0);
+    background:   rgb(60,180,60);
+    box-shadow: 1px 1px 2px rgba(0,200,0,0.4);
+}
+
+.blue {
+    border-color: rgb(0,0,255);
+    background:   rgb(60,60,180);
+    box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+}
+
+.gold {
+    border-color: rgb(255,255,0);
+    background:   rgb(218,165,30);
+    box-shadow: 1px 1px 2px rgba(200,200,0,0.4);
+}
+
+.black {
+    border-color: rgb(0,0,0);
+    background:   rgb(75,75,75);
+    box-shadow: 1px 1px 2px rgba(200,200,0,0.4);
+}

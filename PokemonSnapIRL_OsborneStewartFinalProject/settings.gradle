@@ -1,0 +1,4 @@
+include ':PokeWatch'
+include ':API'
+include ':PokePhone'
+rootProject.name = "PokemonSnapIRL"

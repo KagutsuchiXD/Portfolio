@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <title>Weather Voting App</title>
+
+
+</head>
+<body>
+
+<div id="general">
+    <div id="app">
+        <h1 v-if="(forecast_list == null) && (daily_list == null)">Now loading...</h1>
+        <div v-else>
+            <h1>Weather Poll</h1>
+            <div id="daily">
+                <h2>Conditions in {{city}} {{state}}, {{country}}</h2>
+                <h2>On {{current_date}}</h2>
+                Temperature: {{daily_list.main.temp}} *F <br>
+                Humidity: {{daily_list.main.humidity}}% <br>
+                Pressure: {{daily_list.main.pressure }} hpa <br>
+                Condition: {{daily_list.weather[0].description}} <br>
+            </div>
+
+            <div id="forecast_votes">
+                <h2>Click on a future forecast block to toggle between</h2>
+                <h3 id="likely">Likely(Green): {{likely_count}}</h3>
+                <h3 id="normal">Default(Grey): {{normal_count}} </h3>
+                <h3 id="unlikely">Unlikely(Red): {{unlikely_count}} </h3>
+            </div>
+
+            <div v-for = "n in count" id = "wrapper">
+                <div v-if = "forecast_list.list[n] != null">
+                    <div v-on:click="vote(n-1, $event)">
+                        <div v-bind:style = "styles[n-1]" >
+                            Condition on {{dates[n]}} <br>
+                            Temperature: {{forecast_list.list[n].main.temp}} *F <br>
+                            Humidity: {{forecast_list.list[n].main.humidity}}% <br>
+                            Pressure: {{forecast_list.list[n].main.pressure}} hpa <br>
+                            Condition: {{forecast_list.list[n].weather[0].description}} <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="weatherVue.js"></script>
+</body>
+</html>

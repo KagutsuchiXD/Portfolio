@@ -1,0 +1,39 @@
+{% extends 'auction/base.html' %}
+{% load static %}
+
+{% block title %}Login Page{% endblock %}
+
+{% block content %}
+<!--
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Login</button>
+</form>
+-->
+
+
+<div id="id01" class="login">
+
+    <form class="modal-content animate" method="post">
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="{% static 'auction/images/avatar.png' %}" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Login</button>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+
+            <span class="account"><a href="../signup">Create Account</a></span>
+            <br>
+            <span class="psw"><a href="{% url 'password_reset' %}">Forgot password?</a></span>
+        </div>
+    </form>
+
+</div>
+{% endblock %}

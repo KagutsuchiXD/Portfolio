@@ -1,0 +1,29 @@
+{% extends 'auction/base.html' %}
+{% load static %}
+
+{% block title %}Favorites{% endblock %}
+
+{% block content %}
+<div>
+    <h1>Your list of favorite items</h1>
+</div>
+{% for item in favorite_items %}
+<div class="item_wrapper">
+    <div class="gallary_image_div">
+        <a href="{% url 'auction:item_details' item.id %}">
+            <img class="gallary_image" src="{{ item.image.url }}">
+        </a>
+
+    </div>
+    <h2>{{ item.item_name }}</h2>
+
+</div>
+{% empty %}
+<div>
+    <h2>
+        No favorite items yet take a look at the item gallery first.
+    </h2>
+</div>
+{% endfor %}
+
+{% endblock %}

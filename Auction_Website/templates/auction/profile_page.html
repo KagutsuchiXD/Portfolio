@@ -1,0 +1,22 @@
+{% extends 'auction/base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+Hi {{ user.username }}!
+
+Your id number is {{user.id}}
+
+<div>First Name: {{ user.first_name }}</div>
+<div>Last Name: {{ user.last_name }}</div>
+<div>email: {{ user.email }}</div>
+
+<p><a href="{% url 'logout' %}">logout</a></p>
+<p><a href="{% url 'password_reset' %}">reset password</a></p>
+{% else %}
+<p>You are not logged in</p>
+<a href="{% url 'login' %}">login</a>
+{% endif %}
+{% endblock %}

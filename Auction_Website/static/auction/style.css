@@ -1,0 +1,278 @@
+html {
+    background-color: #9fa69f;
+    color: white;
+}
+
+#header {
+    height: 25px;
+    margin: 0 0 0 10px;
+    padding: 10px;
+    background-color: #333333;
+    color: cyan;
+}
+
+.menu {
+    float: left;
+}
+
+.item {
+    float: left;
+    background-color: #333333;
+    color: #FFFFFF;
+    width: 30%;
+    padding: 0;
+    margin: 5px;
+}
+
+.title {
+    padding: 10px;
+    float: right;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    align-self: center;
+}
+
+.display {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 20px;
+    margin: 5px;
+    width: 100vw;
+}
+
+.price_label {
+    padding: 10px;
+    margin: 0;
+}
+
+.price {
+    padding: 10px;
+    margin: 0;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+  
+.topnav #myLinks {
+    display: none;
+}
+  
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+.topnav a.icon {
+    background: #f44336;
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 20px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.active {
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+}
+
+.fa {
+    display:inline-block;
+    font:normal normal normal 14px/1 FontAwesome;
+    font-size:inherit;
+    text-rendering:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+
+.fa-bars:before{
+    content: url("images/hamburger.png")
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+span.account {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+.fib {
+    display: inline-block;
+    background-color: rgba(112,128,144,0.1);
+}
+
+.stuff-box {
+    font-family: 'helvetica neue', helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 3px 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.red {
+    border-color: rgb(248, 247, 247);
+    background:   rgb(51, 51, 51);
+    box-shadow: 1px 1px 2px rgba(200,0,0,0.4);
+}
+
+.shadowed {
+    text-shadow: 1px 1px 2px black;
+    color:       white;
+}
+
+.gallary_image_div {
+    height: 30vh;
+}
+
+.gallary_image {
+    height: 30vh;
+    width: auto;
+}
+
+.item_wrapper {
+    float: left;
+    margin: 2vh;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frogger</title>
+    <link rel = "stylesheet" type = "text/css" href = "styles/game.css">
+</head>
+<body>
+    <div id = "game">
+        <div id = "main-menu" class = "screen">
+            <h1>Frogger</h1>
+            <ul class = "menu">
+                <li><button id = "id-new-game">New&nbsp;Game</button></li>
+                <li><button id = "id-high-scores">High&nbsp;Scores</button></li>
+                <li><button id = "id-controls">Controls</button></li>
+                <li><button id = "id-about">About</button></li>
+            </ul>
+        </div>
+        <div id = "game-play" class = "screen">
+            <canvas id = "id-canvas" width = "1000" height = "1000"
+                    style = "width: 100%; height: 100%;">
+            </canvas>
+        </div>
+        <div id = "high-scores" class = "screen">
+            <h2>High Scores</h2>
+            <ol id = "scores"></ol>
+            <ul class = "menu">
+                <li><button id = "id-high-scores-back">Back</button></li>
+            </ul>
+        </div>
+        <div id = "controls" class = "screen">
+            <h2>Controls</h2>
+            <ul class = "menu">
+                <li><button id = "id-forward" value="">&uarr; : Forward</button></li>
+                <li><button id = "id-back" value="">&darr; : Backward</button></li>
+                <li><button id = "id-left">&larr; Move Left</button></li>
+                <li><button id = "id-right">&rarr; : Move Right</button></li>
+                <li><button id = "id-controls-back">Back</button></li>
+            </ul>
+        </div>
+        <div id = "about" class = "screen">
+            <h2>About</h2>
+            <p>
+                This is a copycat of the popular Frogger game by Konami.
+                Try to get all of the frogs home alive. <br>
+                Your score will be calculated based on forward movement and getting the frogs home.<br>
+                Bonus points can be gained by getting a fly as you enter a home.<br>
+                Good Luck.<br>
+                Developed by
+            </p>
+            <h2>Connor Osborne</h2>
+            <ul class = "menu">
+                <li><button id = "id-about-back">Back</button></li>
+            </ul>
+        </div>
+        <div id = "pause" class = "screen">
+            <h2>Pause</h2>
+            <ul class = "menu">
+                <li><button id = "id-continue">Continue</button></li>
+                <li><button id = "id-quit">Quit</button></li>
+            </ul>
+        </div>
+        <div id = "transition" class = "screen">
+            <h2>Level Completed, Next Level Loading...</h2>
+            <h2 id="timer"></h2>
+            <ul class = "menu">
+                <li><button id = "id-transition-quit">Quit</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <script data-main = "scripts/loader" src="scripts/require.js"></script>
+</body>
+</html>

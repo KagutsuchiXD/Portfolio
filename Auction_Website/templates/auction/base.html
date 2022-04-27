@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'auction/style.css' %}"/>
+    <title>{% block title %}Hashira Auction{% endblock %}</title>
+</head>
+<body>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="" class="active">Hashira Auction</a>
+        <div id="myLinks">
+            <a href="{% url 'auction:index' %}" class="item_menu">Home</a>
+            <a href="{% url 'auction:profile_page' %}" class="item_menu">Profile</a>
+            <a href="{% url 'auction:favorites' %}" class="item_menu">Favorites</a>
+            <a href="{% url 'auction:bids_page' %}" class="item_menu">Your Bids List</a>
+            <a href="{% url 'admin:auction_item_changelist' %}" class="item_menu">Edit/Add items for Auction</a>
+            <a href="{% url 'logout' %}">logout</a>
+            <a href="" class="item_menu">Your Current Balance: ${{ balance }}</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img src="{% static 'auction/images/hamburger.png' %}" style="width: 25px;height: 25px;">
+        </a>
+    </div>
+    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+<main>
+    {% block content %}
+    {% endblock %}
+</main>
+</body>
+</html>

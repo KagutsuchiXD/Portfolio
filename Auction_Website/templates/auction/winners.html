@@ -1,0 +1,27 @@
+{% extends 'auction/base.html' %}
+{% load static %}
+
+{% block title %}The Winners!{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+<div>Hi {{ user.username }}! Did you Win?: </div>
+<p><a href="{% url 'logout' %}">logout</a></p>
+<p><a href="{% url 'password_reset' %}">reset password</a></p>
+
+<h1>List of Winners:</h1>
+<br>
+{% for w in winner %}
+<div class="item_wrapper">
+    <h2>{{ w.user.username }}</h2>
+    <div class="gallary_image_div">
+        <p> {{w.item_won.item_name}}</p>
+        <img class="gallary_image" src="{{ w.item_won.image.url }}">
+    </div>
+</div>
+{% endfor %}
+{% else %}
+<p>You are not logged in</p>
+<a href="{% url 'login' %}">login</a>
+{% endif %}
+{% endblock %}

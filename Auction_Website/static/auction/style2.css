@@ -1,0 +1,38 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+.item {
+    float: left;
+    background-color: #333333;
+    color: #FFFFFF;
+    width: 30%;
+    padding: 0;
+    margin: 5px;
+}
+
+.title {
+    padding: 0 10px 0 10px;
+    float: left;
+    margin: 0;
+    text-align: center;
+}
+
+.display {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 20px;
+    margin: 5px;
+    width: 100vw;
+}
+
+.price_label {
+    padding: 10px;
+    margin: 0;
+}
+
+.price {
+    padding: 10px;
+    margin: 0;
+}

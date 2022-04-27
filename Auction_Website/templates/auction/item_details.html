@@ -1,0 +1,59 @@
+{% extends 'auction/base.html' %}
+{% block content %}
+{% load custom_tags %}
+<header>
+    <h1>
+      Item Details
+    </h1>
+</header>
+<div id="middle">
+    <div class="gallary_image_div">
+        <img class="gallary_image" src="{{ item.image.url }}">
+    </div>
+    <h2>
+      {{ item.item_name }}
+    </h2>
+    
+    <p>
+        {{ item.description }}
+    </p>
+    <h2>
+    Current Highest Bid
+    </h2>
+    <h3>
+        ${{ bid }}
+    </h3>
+</div>
+<div id="form">
+    <h3>
+        Make a Bid
+    </h3>
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    <form action="{% url 'auction:add_bid' item.id %}" method="post">
+        {% csrf_token %}
+        <label for="Bid">Bid Amount:
+            <input type="number" name="bid" id="bid"><br>
+        </label><br>
+        <div>
+            <button id="submission" type="submit"style="margin-top: 20px;">Submit</button>
+        </div>
+    </form>
+    <div id="favorite-section">
+        {% if is_favorite %}
+        <button type="button" class="btn btn-outline-primary watch_button" onclick="location.href='/favorite/{{item.id}}'">
+            Un-Favorite
+        </button>
+        {% else %}
+        <button type="button" class="btn btn-outline-primary watch_button" onclick="location.href='/favorite/{{item.id}}'">
+            Favorite
+        </button>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

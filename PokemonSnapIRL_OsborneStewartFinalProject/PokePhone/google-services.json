@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "77992672694",
+    "project_id": "project2pokemonsnap",
+    "storage_bucket": "project2pokemonsnap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77992672694:android:242001019e3f7ef2e41517",
+        "android_client_info": {
+          "package_name": "com.OsborneStewartPokemonSnapIRLProject2.phoneapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77992672694-g2eq0fd8csb0m7fm7kgcjagi0d3adj4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqWpFeHBQ83QCv73zm2hecZN0HEFGYo6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77992672694-g2eq0fd8csb0m7fm7kgcjagi0d3adj4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+{% extends 'auction/base.html' %}
+{% load static %}
+
+{% block title %}Bids{% endblock %}
+
+{% block content %}
+<div>
+    <h1>List of Items you have bid on.</h1>
+</div>
+{% for item in items_bid_on %}
+<div class="item_wrapper">
+    <div class="gallary_image_div">
+        <a href="{% url 'auction:item_details' item.id %}">
+            <img class="gallary_image" src="{{ item.image.url }}">
+        </a>
+    </div>
+    <h2>{{ item.item_name }}</h2>
+
+</div>
+{% empty %}
+<div>
+    <h2>
+        No bids yet, take a look at the item gallery first.
+    </h2>
+</div>
+{% endfor %}
+
+<br style="clear: left;">
+    <h1 style="padding-top: 10mm;">Items you are currently winning:</h1>
+</br>
+{% for b in bids %}
+    <div class="item_wrapper">
+        <div class="gallary_image_div">
+            <a href="{% url 'auction:item_details' b.id %}">
+                <img class="gallary_image" src="{{ b.image.url }}">
+            </a>
+        </div>
+        <h2>{{ b.item_name }}</h2>
+    </div>
+{% endfor %}
+
+{% endblock %}

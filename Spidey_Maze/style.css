@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color: #979191;
+    font-size: 100px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: #979191;
+    font-weight: bold;
+}
+h3{
+    color: #979191;
+    font-weight: bold;
+}
+p, label{
+    color: #979191;
+    font-weight: bold;
+}
+#menuHolder{
+    float: left;
+    padding: 10px;
+}
+#instructions{
+    text-align: center;
+}
+body{
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: auto;
+}

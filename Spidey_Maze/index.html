@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang = "en-US">
+<head>
+    <meta charset = "UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Maze Game</title>
+</head>
+<body onload="initialize()">
+<h1 id="title">
+Spidey's Maze
+</h1>
+<h3>
+    Credits:<br>
+    Connor Osborne
+</h3>
+<p id="instructions">
+    Help Spidey make his way home to MJ. <br>
+    Each space on the correct path is 5 points while it is -3 points to go off the correct path<br>
+    and -1 for being off the right path on squares you've already been to. See how fast you can get to the goal.
+</p>
+<div id="menuHolder">
+    <p>
+        Start new game using current settings
+    </p>
+    <button id="new-game" onclick="newGame()">New Game</button>
+    <br>
+    <h3>
+        Controls:
+    </h3>
+    <p>
+        wasd, ijkl or &uarr; &larr; &darr; &rarr; : Movement
+    </p>
+    <p>
+        h : Toggle Hint
+    </p>
+    <p>
+        b : Toggle Web Trail
+    </p>
+    <p>
+        p : Toggle Path to Finish
+    </p>
+    <br>
+    <div id = "radio-ctn">
+        <p>
+            Start new game of chosen size
+        </p>
+
+        <input type="radio" id="five" name = "maze-size" value="5" checked>
+        <label >5x5</label><br>
+        <input type="radio" id="ten" name = "maze-size" value="10">
+        <label >10x10</label><br>
+        <input type="radio" id="fifteen" name = "maze-size" value="15">
+        <label >15x15</label><br>
+        <input type="radio" id="twenty" name = "maze-size" value="20">
+        <label >20x20</label>
+        <button id="change-size" onclick="changeSize()">Change Size</button>
+    </div>
+    <div id="score-board"></div>
+</div>
+<div id="mazeHolder">
+    <h2 id="progress"></h2>
+    <canvas id = "mazeCanvas"
+            width = "1000" height = "1000"
+            style = "width: 55%; height: 55%; border-style: solid; border-width: 3px">
+    </canvas>
+</div>
+
+<script src = "assign2_scripts/maze.js"></script>
+<script src = "assign2_scripts/gameDriver.js"></script>
+</body>
+</html>

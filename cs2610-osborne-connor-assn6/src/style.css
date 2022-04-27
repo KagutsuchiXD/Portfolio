@@ -1,0 +1,57 @@
+#daily {
+    border-radius: 15px;
+    background: #193e84;
+    width: 500px;
+    margin: 0 auto;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+    display:block;
+}
+
+#forecast_votes{
+    border-radius: 15px;
+    background: #4682B4;
+    width: 500px;
+    margin: 0 auto;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+    display:block;
+}
+
+#general{
+    text-align: center;
+    width: auto;
+
+}
+
+#likely{
+    color: green;
+    font-family: "Noto Sans", sans-serif;
+}
+
+#unlikely{
+    color: red;
+    font-family: "Noto Sans", sans-serif;
+}
+#normal{
+    color: gray;
+    font-family: "Noto Sans", sans-serif;
+}
+
+div {
+    display: inline-block;
+}
+
+body{
+    background-image: url("../data/weather.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    color: #B0C4DE;
+}
